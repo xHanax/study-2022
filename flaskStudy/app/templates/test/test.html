@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<h1> head Test </h1><br />
+	</head>
+
+	<body>
+		<input type="button" value="insert 예제" onclick="location.href='/test/insert'" >
+		<input type="button" value="select 예제" onclick="location.href='/test/select'" >
+		<input type="button" value="update 예제" onclick="location.href='/test/update'" >
+
+		<br /><br /><br />
+
+		<div>
+			insert result : {{ result }}
+		</div>
+		<br />
+
+		<div>
+			select result idx : {{ resultData.idx }} <br />
+			select result test : {{ resultData.test }}
+		</div>
+		<br />
+
+		<div>
+			update result idx : {{ resultUPDATE.idx }} <br />
+			update result test : {{ resultUPDATE.test }}
+		</div>
+		<br />
+
+	</body>
+</html>
